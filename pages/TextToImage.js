@@ -8,6 +8,7 @@ import {
   SafeAreaView,
   Touchable,
   TouchableNativeFeedback,
+  Text,
 } from "react-native";
 
 const TextToImage = () => {
@@ -61,10 +62,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   input: {
-    height: 40,
+    minHeight: 40,
     width: 200,
-    borderColor: "gray",
-    borderWidth: 1,
+    borderColor: "#3C84AB",
+    color: "black",
+    borderRadius: 10,
+    borderWidth: 2,
     margin: 10,
     padding: 10,
   },
