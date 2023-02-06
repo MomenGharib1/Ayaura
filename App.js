@@ -6,7 +6,7 @@ import Navigator from "./routes/homeStack";
 import axios from "axios";
 
 export default function App() {
-  const a = 2;
+  const a = 5555435;
   axios.defaults.baseURL = "http://localhost:3001/";
   return <Navigator />;
 }
