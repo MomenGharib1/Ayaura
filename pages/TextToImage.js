@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import axios from "axios";
+
 import {
   View,
   TextInput,
@@ -36,6 +38,15 @@ const TextToImage = () => {
 
     const data = await response.json();
     setImage(data.data[0].url);
+
+    const imageData = {
+      url: data.data[0].url,
+      name: "image-" + new Date().getTime(),
+      prompt: text,
+    };
+    const response2 = await axios.post("/images", imageData);
+    const data2 = await response2.json();
+    console.log(data2.message);
   };
 
   return (
