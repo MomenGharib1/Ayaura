@@ -47,4 +47,4 @@ npm start
 
 ## Important
 
-unfortunately, if you wanted to try the app in your local machine, you will not have the access to the original database of the app as it uses my personal account, so you should make a mongoDB account and link that account to the project in the index.js file in server directory.
+unfortunately, if you want to try the app in your local machine, you will not have the access to the original database of the app as it uses my personal account, so you should make a mongoDB account and link that account to the project in the index.js file in server directory.
