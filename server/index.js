@@ -8,7 +8,7 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb" }));
 
 mongoose.connect(
-  "mongodb+srv://Ayaura:Xdesignerstrange2020@cluster0.x9gijlq.mongodb.net/Ayaura"
+  "mongodb+srv://<username>:<Password>@cluster0.x9gijlq.mongodb.net/Ayaura"
 );
 
 app.use("/", require("./routes/Routes"));
