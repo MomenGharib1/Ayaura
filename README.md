@@ -6,6 +6,7 @@
 ## How to try the App
 
 You can install "expo client" from the app store and try the hosted version here : https://expo.dev/@momen_gharib/Ayaura?serviceType=classic&distribution=expo-go.
+OR you can just try the web hosted version here : https://ayaura.surge.sh/ (much faster).
 
 ## How to install it locally
 - This project uses node.js so if you don't have it yet, you can install node.js from here first : [Node.js](https://nodejs.org/en/)
@@ -17,7 +18,7 @@ cd client
 npm install
 npm start
 Enter "a" to open it in android studio simulator.
-Enter "w" to open it as a web application (not recommended)
+Enter "w" to open it as a web application.
 ```
 - open a new terminal
 
