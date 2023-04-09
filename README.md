@@ -1,6 +1,6 @@
-# Ayaura
 # Update: 
 ### unfortunately I don't have much credits to use Open Ai's api any more so sadly the application is not working anymore for now, you can visit the gallery to see some of others' last prompts and pics.
+# Ayaura
 ### Ayaura is an Ai Image generator app built on DALL-E with the help of chat-GPT, You need to only imagine and let magic happens 😉.
 ### It's a funny app where you enter text and the Ai transforms it into a pic, there's a gallery where you can find all of the others' imaginations, fortunately the name of the artist is not takken so have fun 😂.
 
